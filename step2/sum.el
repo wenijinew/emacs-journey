@@ -1,0 +1,5 @@
+(defun sum ()
+ (let ((x (string-to-number (pop command-line-args-left)))
+      (y (string-to-number (pop command-line-args-left))))
+  (message "The sum of %d and %d is %d" x y (+ x y)))
+)
